@@ -1,0 +1,60 @@
+ul {
+	width: 60%;
+	margin: auto;
+}
+.card {
+	outline-style: solid;
+	border-radius: 12pt;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	padding: 12pt;
+}
+body {
+	background-color: gainsboro;
+}
+* {
+	font-family: "Trebuchet MS";
+}
+        /* Basic styling */
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .active {
+            display: block;
+        }
+        .arrow {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            user-select: none;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .arrow.left {
+            left: 0;
+        }
+        .arrow.right {
+            right: 0;
+        }
+        /* Add hover effects */
+        .arrow:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
